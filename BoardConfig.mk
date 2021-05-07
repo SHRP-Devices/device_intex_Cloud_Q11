@@ -122,7 +122,7 @@ SHRP_PATH := device/intex/$(SHRP_DEVICE_CODE)
 
 # Maintainer name
 # Default (if not set): N/A
-SHRP_MAINTAINER := Aryan
+SHRP_MAINTAINER := Aryan Karan
 
 # Recovery Type (for "About" section only)
 # Default (if not set): N/A
@@ -134,7 +134,7 @@ SHRP_DEVICE_TYPE := A_Only
 
 # Your device's recovery path, dont use blindly
 # No default
-SHRP_REC := /dev/block/    /by-name/recovery
+SHRP_REC := /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/recovery
 
 ################### ################################################################################
 # IMPORTANT FLAGS # These are usually good to check - at least if the defaults are what you expect #
@@ -142,7 +142,7 @@ SHRP_REC := /dev/block/    /by-name/recovery
 
 # Emergency DownLoad mode (0 = no EDL mode, 1 = EDL mode available)
 # Default (if not set): 0
-SHRP_EDL_MODE := 0
+#SHRP_EDL_MODE := 0
 
 # internal storage path
 # Default (if not set): /sdcard
