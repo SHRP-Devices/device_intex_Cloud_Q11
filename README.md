@@ -1,1 +1,1 @@
-# SHRP_dt_Intex_Cloud_Q11
+# Sky Hawk Recovery Project Device Tree
