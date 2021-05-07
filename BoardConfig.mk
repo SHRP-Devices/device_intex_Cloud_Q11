@@ -134,7 +134,7 @@ SHRP_DEVICE_TYPE := A_Only
 
 # Your device's recovery path, dont use blindly
 # No default
-SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_REC := /dev/block/    /by-name/recovery
 
 ################### ################################################################################
 # IMPORTANT FLAGS # These are usually good to check - at least if the defaults are what you expect #
