@@ -122,7 +122,7 @@ SHRP_PATH := device/intex/$(SHRP_DEVICE_CODE)
 
 # Maintainer name
 # Default (if not set): N/A
-SHRP_MAINTAINER := Aryan Karan
+SHRP_MAINTAINER := "Aryan Karan"
 
 # Recovery Type (for "About" section only)
 # Default (if not set): N/A
@@ -246,7 +246,7 @@ SHRP_FLASH_MAX_BRIGHTNESS := 200
 # Default (if not set) is NOT adding it to the ramdisk but internal storage.
 # To store this addon into the recovery ramdisk instead set to "true" here.
 # Ensure you understood the above note on the default behavior!
-INC_IN_REC_ADDON_1 := true
+#INC_IN_REC_ADDON_1 := true
 
 # Addon - Substratum Overlay (OMS -legacy- disabler)
 # Default (if not set) is not skipping this addon (i.e. add it)
@@ -255,7 +255,7 @@ INC_IN_REC_ADDON_1 := true
 # Default (if not set) is NOT adding it to the ramdisk but internal storage.
 # To store this addon into the recovery ramdisk instead set to "true" here.
 # Ensure you understood the above note on the default behavior!
-INC_IN_REC_ADDON_2 := true
+#INC_IN_REC_ADDON_2 := true
 
 # Addon - Clear Fingerprint (remove fingerprint lock from system)
 # Default (if not set) is not skipping this addon (i.e. add it)
@@ -264,7 +264,7 @@ INC_IN_REC_ADDON_2 := true
 # Default (if not set) is NOT adding it to the ramdisk but internal storage.
 # To store this addon into the recovery ramdisk instead set to "true" here.
 # Ensure you understood the above note on the default behavior!
-INC_IN_REC_ADDON_3 := true
+#INC_IN_REC_ADDON_3 := true
 
 # Addon - Force Encryption (remove force encryption from your device)
 # Default (if not set) is not skipping this addon (i.e. add it)
@@ -273,13 +273,13 @@ INC_IN_REC_ADDON_3 := true
 # Default (if not set) is NOT adding it to the ramdisk but internal storage.
 # To store this addon into the recovery ramdisk instead set to "true" here.
 # Ensure you understood the above note on the default behavior!
-INC_IN_REC_ADDON_4 := true
+#INC_IN_REC_ADDON_4 := true
 
 
 # Default (if not set) is NOT adding it to the ramdisk but internal storage.
 # To store magisk zip into the recovery ramdisk instead set to "true" here.
 # Ensure you understood the above note on the default behavior!
-INC_IN_REC_MAGISK := true
+#INC_IN_REC_MAGISK := true
 
 ############################ #########################################################
 # CUSTOM ADDONS - OPTIONAL # Custom addons! Yea fully optional but.. GREAT STUFF! :) #
@@ -307,7 +307,7 @@ SHRP_EXTERNAL_ADDON_1_SUCCESSFUL_TEXT := "Done!"
 # Default (if not set) is NOT adding this addon into the recovery ramdisk. That means:
 # If you do NOT set this the addon will be saved into the internal storage (i.e: $(SHRP_INTERNAL)/SHRP/addons)
 # Set this variable when true ONLY (do not use "false" or similiar)
-SHRP_INC_IN_REC_EXTERNAL_ADDON_1 := true
+#SHRP_INC_IN_REC_EXTERNAL_ADDON_1 := true
 
 # As you might already guess from the naming scheme: 
 # You can add multiple custom addons (max amount is 6)!
