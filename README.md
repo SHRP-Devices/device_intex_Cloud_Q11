@@ -1,10 +1,10 @@
-# Sky Hawk Recovery Project Device Tree
+# Sky Hawk Recovery Project Device Tree For v3_9.0 brach
 
 
-Link to manifest :  https://github.com/SHRP/platform_manifest_twrp_omni.git
+<b>Link to manifest</b> :  https://github.com/SHRP/platform_manifest_twrp_omni.git
 
-Build Guide :  https://shrp.github.io/#/guide
+<b>Build Guide</b> :  https://shrp.github.io/#/guide
 
-Telegram Support :  https://t.me/sky_hawk
+<b>Telegram Support</b> :  https://t.me/sky_hawk
 
-Maintainership form : https://forms.gle/ifsMN2hCV3Z5wPFDA
+<b>Maintainership form</b> : https://forms.gle/ifsMN2hCV3Z5wPFDA
