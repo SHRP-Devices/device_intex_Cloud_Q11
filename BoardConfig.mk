@@ -188,7 +188,7 @@ SHRP_FLASH := 1
 # SHRP Dark mode, use this flag to have dark theme set by default
 # Default (if not set) is not using DARK mode
 # Set this variable when true ONLY (do not use "false" or similiar)
-SHRP_DARK := true
+#SHRP_DARK := true
 
 # custom led paths for flashlight
 # find yours then replace the examples here
@@ -295,12 +295,12 @@ SHRP_EXTERNAL_ADDON_PATH := "device/intex/$(SHRP_DEVICE_CODE)/addon/"
 # Addon #1 - Name
 SHRP_EXTERNAL_ADDON_1_NAME := "AromaFM"
 # Addon #1 - Description
-SHRP_EXTERNAL_ADDON_1_INFO := "A new way of seeinf file manager"
+SHRP_EXTERNAL_ADDON_1_INFO := "A new way of seeing file manager"
 # Addon #1 - Addon file name as ZIP (zip format is required)
 SHRP_EXTERNAL_ADDON_1_FILENAME := "AromaFM.zip"
 # Addon #1 - Free defineable button text the user need to press to actually install that addon
 # (Examples: Ok, Install, Flask, Enable, Disable, etc)
-SHRP_EXTERNAL_ADDON_1_BTN_TEXT := "Manager"
+SHRP_EXTERNAL_ADDON_1_BTN_TEXT := "Enter AromaFM"
 # Addon #1 - Text beeing shown when the installation was successful
 SHRP_EXTERNAL_ADDON_1_SUCCESSFUL_TEXT := "Done!"
 # Addon #1 - Inject the addon into the recovery (if so: be sure that it will fit into the partition)
