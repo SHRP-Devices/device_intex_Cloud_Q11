@@ -188,7 +188,7 @@ SHRP_FLASH := 1
 # SHRP Dark mode, use this flag to have dark theme set by default
 # Default (if not set) is not using DARK mode
 # Set this variable when true ONLY (do not use "false" or similiar)
-#SHRP_DARK := true
+SHRP_DARK := true
 
 # custom led paths for flashlight
 # find yours then replace the examples here
