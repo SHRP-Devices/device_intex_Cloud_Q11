@@ -295,14 +295,14 @@ SHRP_EXTERNAL_ADDON_PATH := "device/intex/$(SHRP_DEVICE_CODE)/addon/"
 # Addon #1 - Name
 SHRP_EXTERNAL_ADDON_1_NAME := "AromaFM"
 # Addon #1 - Description
-SHRP_EXTERNAL_ADDON_1_INFO := "A new way of seeing file manager"
+SHRP_EXTERNAL_ADDON_1_INFO := "An Advanced way of seeing file manager"
 # Addon #1 - Addon file name as ZIP (zip format is required)
 SHRP_EXTERNAL_ADDON_1_FILENAME := "AromaFM.zip"
 # Addon #1 - Free defineable button text the user need to press to actually install that addon
 # (Examples: Ok, Install, Flask, Enable, Disable, etc)
 SHRP_EXTERNAL_ADDON_1_BTN_TEXT := "Enter AromaFM"
 # Addon #1 - Text beeing shown when the installation was successful
-SHRP_EXTERNAL_ADDON_1_SUCCESSFUL_TEXT := "Done!"
+SHRP_EXTERNAL_ADDON_1_SUCCESSFUL_TEXT := "Have A Nice Day!"
 # Addon #1 - Inject the addon into the recovery (if so: be sure that it will fit into the partition)
 # Default (if not set) is NOT adding this addon into the recovery ramdisk. That means:
 # If you do NOT set this the addon will be saved into the internal storage (i.e: $(SHRP_INTERNAL)/SHRP/addons)
@@ -318,4 +318,3 @@ SHRP_EXTERNAL_ADDON_1_SUCCESSFUL_TEXT := "Done!"
 # SHRP_EXTERNAL_ADDON_2_XXXX for the second addon
 # and for the third up to the sixth change it accordingly: 
 # SHRP_EXTERNAL_ADDON_3_XXXX, SHRP_EXTERNAL_ADDON_4_XXXX, SHRP_EXTERNAL_ADDON_5_XXXX, SHRP_EXTERNAL_ADDON_6_XXXX
-
