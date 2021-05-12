@@ -8,3 +8,5 @@
 <b>Telegram Support</b> :  https://t.me/sky_hawk
 
 <b>Maintainership form</b> : https://forms.gle/ifsMN2hCV3Z5wPFDA
+
+<b>Clone Command</b> :  git clone https://github.com/aryankaran/SHRP_dt_Intex_Cloud_Q11.git -b v3_9.0 device/intex/Cloud_Q11
