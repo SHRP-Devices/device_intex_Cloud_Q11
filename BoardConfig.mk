@@ -318,3 +318,6 @@ SHRP_EXTERNAL_ADDON_1_SUCCESSFUL_TEXT := "Have A Nice Day!"
 # SHRP_EXTERNAL_ADDON_2_XXXX for the second addon
 # and for the third up to the sixth change it accordingly: 
 # SHRP_EXTERNAL_ADDON_3_XXXX, SHRP_EXTERNAL_ADDON_4_XXXX, SHRP_EXTERNAL_ADDON_5_XXXX, SHRP_EXTERNAL_ADDON_6_XXXX
+
+# Officialized it
+SHRP_OFFICIAL := true
