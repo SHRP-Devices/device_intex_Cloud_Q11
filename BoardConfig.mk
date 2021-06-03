@@ -81,17 +81,18 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
-# Set the Brightness Control File Path below (For mt65xx below)
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_SECONDARY_BRIGHTNESS_PATH := /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness
-# Set the Path of Logical Units (LUNs) for Storage below (as per your chip/device)
 #TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/mt_usb/musb-hdrc.0.auto/gadget/lun%d/file
 #TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/android0/f_mass_storage/lun/file
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 90                   # Set custom brightness, low is better
-TWRP_INCLUDE_LOGCAT := true
+#TWRP_INCLUDE_LOGCAT := true
 TW_DEFAULT_LANGUAGE := en                     # Set Default Language 
 TW_EXTRA_LANGUAGES := false
+
+# Removed nano
+TW_EXCLUDE_NANO := true
 
 # Set FSTAB
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
@@ -122,7 +123,7 @@ SHRP_FLASH := 0
 #SHRP_EXPRESS := true
 
 SHRP_DARK := true
-# SHRP Lite To exclude theming as PArtition Size only 16 MB ...😅
+# SHRP Lite To exclude theming as PArtition Size only 16 MB For everyone ...😅
 SHRP_LITE := true
 
 # Not Including Magisk Ri8 now in ramdisk
