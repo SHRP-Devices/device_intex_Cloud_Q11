@@ -158,7 +158,7 @@ SHRP_OTG := /usb_otg
 
 # Flashlight: (0 = disable, 1 = enable)
 # Default (if not set): 0
-SHRP_FLASH := 1
+SHRP_FLASH := 0
 
 ################## #########################################################################
 # OPTIONAL FLAGS # Stuff which highly depends on your device and / or personal preferences #
@@ -192,14 +192,14 @@ SHRP_DARK := true
 
 # custom led paths for flashlight
 # find yours then replace the examples here
-SHRP_CUSTOM_FLASHLIGHT := true
-SHRP_FONP_1 := /sys/class/leds/led:torch_0/brightness
-SHRP_FONP_2 := /sys/class/leds/led:torch_1/brightness
-SHRP_FONP_3 := /sys/class/leds/led:switch/brightness
+#SHRP_CUSTOM_FLASHLIGHT := true
+#SHRP_FONP_1 := /sys/class/leds/led:torch_0/brightness
+#SHRP_FONP_2 := /sys/class/leds/led:torch_1/brightness
+#SHRP_FONP_3 := /sys/class/leds/led:switch/brightness
 
 # Max brightness of flashlight
 # you can also check the above led paths in Android when you turn on flashlight
-SHRP_FLASH_MAX_BRIGHTNESS := 200
+#SHRP_FLASH_MAX_BRIGHTNESS := 200
 
 # Force mount system in /system despite SAR policy
 # useful for maintaining backwards compatibility and/or Samsung devices
